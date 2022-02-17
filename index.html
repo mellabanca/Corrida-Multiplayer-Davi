@@ -14,9 +14,24 @@
     <script src="./js/Game.js"></script>
     <script src="./js/Form.js"></script>
     <script src="./js/Player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>    
+
 
     <!-- ADICIONAR CÓDIGO Firebase SDK ABAIXO -->
-
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCOilh8eh3Zc6LdjvkJ5ZJ8FiE2zOkPDRE",
+    authDomain: "jogo-de-corrida-92e9c.firebaseapp.com",
+    databaseURL: "https://jogo-de-corrida-92e9c-default-rtdb.firebaseio.com",
+    projectId: "jogo-de-corrida-92e9c",
+    storageBucket: "jogo-de-corrida-92e9c.appspot.com",
+    messagingSenderId: "68906580000",
+    appId: "1:68906580000:web:a3758a0cf90e14021c6445" };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
    
   </head>
   <body>
